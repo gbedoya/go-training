@@ -7,6 +7,11 @@ import (
 func main() {
 
 	fmt.Println("----------------")
+	fmt.Println("[*] MemoryLeaks")
+	fmt.Println("----------------")
+	MemoryLeaks()
+
+	fmt.Println("----------------")
 	fmt.Println("[*] Variables")
 	fmt.Println("----------------")
 	//Variables()
